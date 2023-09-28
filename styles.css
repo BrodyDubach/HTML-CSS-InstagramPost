@@ -1,0 +1,66 @@
+/**font-family: 'Roboto', sans-serif;**/
+
+
+body{
+     background-color: rgb(85, 84, 84);
+}
+.post {
+    padding: 0px 0px 225px 0px;
+    display: inline-block;
+    /* border: 3px dotted #FF0000;  */
+    height: 330px;
+    width: 400px;
+    margin: 5% 35%;
+    background-color: #ffffff
+     
+    
+    /* Other CSS properties for the main post container */
+}
+
+.post-header {
+    padding: 0px 0px 0px 0px; 
+    display: inline-flex;
+    /* border: 3px dotted #00FF00;  */
+     width: 99%;
+     height: 30px;
+     margin: 0 auto;
+
+     /* Other CSS properties for the post header */
+   
+}
+.header-text{
+    display: flex;
+}
+
+
+img {
+    /* border: 3px dotted #0000FF;  */
+    width: 99%;
+    height: 300px;
+    /* Other CSS properties for the post image container */
+}
+
+.post-icons {
+    display:flex;
+    /* border: 3px dotted #FFFF00;  */
+    width: 99%;
+    /* Other CSS properties for the post icons container */
+}
+.ellipsis {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;   
+}
+.bookmark {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 5px;  
+  
+}
+
+.post-body {
+    /* border: 3px dotted #FF00FF;  */
+    /* Other CSS properties for the post body */
+}
